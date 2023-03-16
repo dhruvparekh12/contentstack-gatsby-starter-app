@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import Tooltip from "./ToolTip"
 import copyIcon from "../images/copy.svg"
 
-const ReactJson = React.lazy(() => import("react-json-view"))
+const ReactJson = React.lazy(() => import("@microlink/react-json-view"))
 
 const DevTools = ({ response }: any) => {
   const isSSR = typeof window === "undefined"
